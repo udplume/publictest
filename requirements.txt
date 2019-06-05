@@ -1,7 +1,7 @@
 celery==3.0.24
 git+git://github.com/scieloorg/porteira/
 pillow==2.2.1
-requests==1.2.3
+requests==2.20.0
 networkx==1.9.1
 numpy==1.6.2
 scikit-learn==0.17.1
