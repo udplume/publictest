@@ -1,6 +1,6 @@
 celery==3.0.24
 git+git://github.com/scieloorg/porteira/
-pillow==2.2.1
+pillow==8.2.0
 requests==2.20.0
 networkx==1.9.1
 numpy==1.6.2
