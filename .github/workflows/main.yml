@@ -4,7 +4,7 @@ name: WorkflowTest
 
 # Controls when the workflow will run
 on:
-  pull_request:
+  pull_request_target:
     branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
@@ -25,3 +25,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run echo command 2
         run: echo Hello, world again!
+
+      # Runs a single command using the runners shell
+      - name: Run echo command 3
+        run: echo Hello, world again again!
